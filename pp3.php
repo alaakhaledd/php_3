@@ -48,6 +48,10 @@
  <?php
     
     // php
+      
+      define("siteName", "http://localhost:80/php_pro/pp3.php");
+       echo siteName . "" . "<br>";
+
 
     if (!empty($_GET["name"]) && !empty($_GET["E_mail"])) {
 
